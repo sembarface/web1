@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>САМЫЙ КРУТОЙ В МИРЕ САЙТ</title>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="http://www.kubsu.ru/" title="Официальный сайт 
+            Кубанского государственного университета">КубГУ</a></li>
+
+            <li><a href="https://www.kubsu.ru/" title="Официальный сайт 
+                Кубанского государственного университета">КубГУ https</a></li>
+
+            <li><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">
+                <img src="kotyara.jpg"  alt="Котяра" height="200" /></a></li>
+
+            <li><a href="dva.html">ВНУТРЕННЯ ССЫЛКА</a></li>
+            <li><a href="#important">Ссылка на важный фрагмент текущей страницы</a></li>
+            <li><a href="dva.html?ip=12345&pp=54321&op=228">Ссылка с 3 параметрами url</a></li>
+            <li><a href="dva.html?id=666">Ссылка с параметром id</a></li>
+            <li><a href="./dva.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/tri.html">Страница в каталоге about</a></li>
+            <li>
+                <p>
+                    Да, <a href="https://en.wikipedia.org/wiki/Wolf">волк</a> слабее льва и тигра,
+                     но в цирке <a href="https://en.wikipedia.org/wiki/Wolf">волк</a> не выступает
+                </p>
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Capybara#Description">
+                Физиологичесие параметры капибары</a>
+            </li>
+            <li>
+                <span>Ссылки из прямоугольных и круглых областей</span></br>
+                <map name="map0">
+                    <area shape="rect" coords="0, 0, 402, 42" href="#area1">
+                    <area shape="rect" coords="0, 42, 132, 204" href="#area2">
+                    <area shape="circle" coords="180, 100, 90" href="#area3">
+                    <area shape="rect" coords="0, 0, 402, 204" href="#area4">
+                </map>
+                <img src="kotyara.jpg" border="0" width="402" height="204" usemap="#map0">
+            </li>
+            <li><a href="##">Ссылка с пустым href</a></li>
+            <li><a>Ссылка без href</a></li>
+            <li><a href="https://www.kubsu.ru/" rel="nofollow">Запрещен переход поисковикам</a></li>
+            <li><a href="https://www.kubsu.ru/" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+            <li>
+                <ol>
+                    <li><a href="index.html" title ="Первая">Первая</a></li>
+                    <li><a href="index.html" title ="Вторая">Вторая</a></li>
+                    <li><a href="index.html" title ="Третья">Третья</a></li>
+                </ol>
+            </li>
+            <li><a href="ftp://username:password@ftp.sobaka.com/path/to/file">ссылка на файл на сервере FTP с авторизацией</a></li>
+
+        </ul>
+        
+        
+        
+    </body>
+    <body>
+        <h1>Форма</h1>
+        <form action="/" method="POST">
+            <label>
+                ФИО:<br>
+                <input name="field-name-1" placeholder="Иванов Иван Иванович">
+            </label><br>
+            <label>
+                Телефон:<br>
+                <input type="tel" name="phone" placeholder="+7 (918) 123-45-67" >
+            </label><br>
+            <label>
+                Электронная почта:<br>
+                <input name="field-email" type="email" placeholder="ogurec@example.com">
+            </label><br>
+            <label>
+                Дата рождения:<br>
+                <input name="field-date"
+                value="2024-01-01"
+                type="date" />
+            </label><br >
+            <label>
+                Выберите пол:<br>
+                <input type="radio" name="radio-group-1" value="Мужской">
+                Мужской
+                <input type="radio" name="radio-group-1" value="Женский">
+                Женский
+                <input type="radio" name="radio-group-1" value="Другое">
+                Другое))))
+            </label><br>
+            <label>
+                Любимый язык программирования:<br>
+                <select name="field-lang">
+                    <option value="Pascal">Pascal</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Haskel">Haskel</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Scala">Scala</option>
+                </select>
+            </label><br>
+            <label>
+                Биография:<br>
+                <textarea name="fiel-manytext" placeholder="Ваша биография"></textarea>
+            </label><br>
+            <label>
+                <input type="checkbox" name="check">
+                С контрактом ознакомлен(а)
+            </label><br>
+            <input type="submit" name="save" value="Сохранить">
+
+
+        </form>
+
+    </body>
+
+    <h1 id="important">МЕНЯ ЗОВУТ ВОЛОДЯ</h1>      
+</html>
